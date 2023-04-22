@@ -1,0 +1,36 @@
+﻿@{
+    ViewData["Title"] = "We're Happy You're Applying";
+}
+
+@model GetBryce
+
+<h1>Big Times, Big Measures, Big Fat Application to Be Bryce's</h1>
+
+<p>We'll have a nice field here for you to fill out values</p>
+
+<div>
+    <form method="post">
+        <label asp-for="FirstName">First Name</label>
+        <input asp-for="FirstName" /><br />
+
+        <label asp-for="LastName">Last Name</label>
+        <input asp-for="LastName" /><br />
+
+        <label asp-for="Age">Age</label>
+        <input asp-for="Age" /><br />
+
+        <label asp-for="Phone">Phone</label>
+        <input asp-for="Phone" /><br />
+
+        <label asp-for="Major">Major</label>
+        <input asp-for="Major" /><br />
+
+        <label asp-for="TommyJohn"></label>
+        <select asp-for="TommyJohn">
+            <option value="true">Yessir!</option>
+            <option value="false">No Ma'am</option>
+        </select><br />
+
+        <button type="submit">Submit Application Then Hope for the Best</button>
+    </form>
+</div>

@@ -1,0 +1,14 @@
+﻿@{
+    ViewData["Title"] = "You Got Here, Finally";
+}
+
+@model GetBryce 
+
+@if (@Model.TommyJohn == true)
+{
+    <h2>Well @Model.FirstName, hopefully you recover as well as he does</h2>
+}
+else
+{
+    <h2>That's the one thing you have on him @Model.FirstName</h2>
+}
