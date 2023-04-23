@@ -1279,11 +1279,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\bbdal\\source\\repos\\FinalPracticeNormal\\FinalPracticeNormal\\FinalPracticeNormal.csproj",
+      "projectUniqueName": "C:\\Users\\bbdal\\source\\repos\\FinalPracticeCrud\\FinalPracticeNormal\\FinalPracticeNormal.csproj",
       "projectName": "FinalPracticeNormal",
-      "projectPath": "C:\\Users\\bbdal\\source\\repos\\FinalPracticeNormal\\FinalPracticeNormal\\FinalPracticeNormal.csproj",
+      "projectPath": "C:\\Users\\bbdal\\source\\repos\\FinalPracticeCrud\\FinalPracticeNormal\\FinalPracticeNormal.csproj",
       "packagesPath": "C:\\Users\\bbdal\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bbdal\\source\\repos\\FinalPracticeNormal\\FinalPracticeNormal\\obj\\",
+      "outputPath": "C:\\Users\\bbdal\\source\\repos\\FinalPracticeCrud\\FinalPracticeNormal\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\bbdal\\AppData\\Roaming\\NuGet\\NuGet.Config",

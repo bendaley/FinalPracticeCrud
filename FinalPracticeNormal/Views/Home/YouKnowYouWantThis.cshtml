@@ -10,6 +10,8 @@
 
 <div>
     <form method="post">
+        <div asp-validation-summary="All"></div>
+
         <label asp-for="FirstName">First Name</label>
         <input asp-for="FirstName" /><br />
 
@@ -22,8 +24,14 @@
         <label asp-for="Phone">Phone</label>
         <input asp-for="Phone" /><br />
 
-        <label asp-for="Major">Major</label>
-        <input asp-for="Major" /><br />
+        <label asp-for="MajorId">MajorId</label>
+        <select asp-for="MajorId" >
+            <option value="">Select a Major</option>
+            @foreach (Major m in ViewBag.Majors)
+            {
+                <option value="@m.MajorId">@m.MajorName</option>
+            }
+        </select><br />
 
         <label asp-for="TommyJohn"></label>
         <select asp-for="TommyJohn">

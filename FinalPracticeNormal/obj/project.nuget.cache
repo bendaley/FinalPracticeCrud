@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "m/3EZfqC76t1tn+roBQDD0fzqejWiHTpm10ro7rBU/6sm77xxWFJC4DuKa4/S5ul0vwhKNdfF69ctpSGD5bJ8g==",
+  "dgSpecHash": "ZhWVjIHBm8VuuX/9XYxXuOTBGLIg36GQPLe8SQeNk9yXIZhzNrL5+kJ4r3Fs+FT/Nnxh/kzHINpOlQ4ozjKsbQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\bbdal\\source\\repos\\FinalPracticeNormal\\FinalPracticeNormal\\FinalPracticeNormal.csproj",
+  "projectFilePath": "C:\\Users\\bbdal\\source\\repos\\FinalPracticeCrud\\FinalPracticeNormal\\FinalPracticeNormal.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\bbdal\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\bbdal\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.1\\microsoft.bcl.hashcode.1.1.1.nupkg.sha512",

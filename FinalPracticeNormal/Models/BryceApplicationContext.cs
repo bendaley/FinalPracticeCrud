@@ -15,9 +15,23 @@ namespace FinalPracticeNormal.Models
         }
 
         public DbSet<GetBryce> HopefulResponses { get; set; }
+        public DbSet<Major> Majors { get; set; }
+
+        // seed data
 
         protected override void OnModelCreating(ModelBuilder mb)
         {
+            mb.Entity<Major>().HasData(
+                new Major { MajorId = 1, MajorName = "Information Systems" },
+                new Major { MajorId = 2, MajorName = "Mechanical Engineering" },
+                new Major { MajorId = 3, MajorName = "Elementary Education" },
+                new Major { MajorId = 4, MajorName = "Actuarial Science" },
+                new Major { MajorId = 5, MajorName = "Neuroscience" },
+                new Major { MajorId = 6, MajorName = "Undeclared" }
+            );
+              
+
+
             mb.Entity<GetBryce>().HasData(
                 new GetBryce
                 {
@@ -26,7 +40,7 @@ namespace FinalPracticeNormal.Models
                     LastName = "Daley",
                     Age = 22,
                     Phone = "385-867-5309",
-                    Major = "Information Systems",
+                    MajorId = 1,
                     TommyJohn = true
                 },
 
@@ -37,8 +51,19 @@ namespace FinalPracticeNormal.Models
                     LastName = "Daley",
                     Age = 22,
                     Phone = "435-435-4354",
-                    Major = "Information Systems",
+                    MajorId = 1,
                     TommyJohn = false
+                },
+
+                new GetBryce
+                {
+                ApplicationId = 3,
+                    FirstName = "Collin",
+                    LastName = "Klomp",
+                    Age = 23,
+                    Phone = "801-801-8018",
+                    MajorId = 2,
+                    TommyJohn = true
                 });
         }
     }
